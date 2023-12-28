@@ -29,6 +29,8 @@ app.post("/orders", async (req, res) => {
   //     .json({ message: 'Missing data.' });
   // }
 
+  console.log("test commit");
+
   if (
     orderData.customer.email === null ||
     !orderData.customer.email.includes("@") ||
